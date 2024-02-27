@@ -6,7 +6,7 @@ import about4 from "../../assets/images/about4.jpg";
 
 export const About: React.FC = () => {
     return (
-        <div  id="about" className="flex justify-center items-center mt-3.5">
+        <div  id="about" className="flex justify-center items-center mt-3.5 h-[100vh]">
             <div className="grid grid-cols-2 gap-8 max-w-screen-lg mb-10 ">
                 <div className="flex flex-col justify-center ">
                     <h1 className="text-5xl font-bold mb-4  ">About Us</h1>

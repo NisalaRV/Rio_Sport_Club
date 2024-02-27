@@ -4,7 +4,7 @@ import club from "../../assets/images/club.jpg";
 export const Home = () => {
     return (
         <div id="home" className="relative">
-            <img src={club} className="w-full min-h-80 opacity-90" alt="Rio Club"/>
+            <img src={club} className="w-full h-[100vh] opacity-90" alt="Rio Club"/>
             <div className="absolute top-0 left-0 w-full flex justify-center items-center h-full">
                 <div className="text-center">
                     <h1 className="text-4xl font-bold tracking-tight text-amber-50 sm:text-6xl">Rio Cricket Club</h1>

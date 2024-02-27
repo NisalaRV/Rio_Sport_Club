@@ -5,7 +5,7 @@ import {Home} from "./Pages/Home/Home";
 import {About} from "./Pages/About/About";
 import {Program} from "./Pages/Program/Program";
 import Plans from "./Pages/Plans/Plans";
-import Footer from "./components/Footer/Footer";
+import {Footer} from "./components/Footer/Footer";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 

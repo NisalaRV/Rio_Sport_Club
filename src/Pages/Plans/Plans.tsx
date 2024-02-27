@@ -10,8 +10,8 @@ export interface Props{
 const Plan  = () => {
     return (
         <>
-            <div id="plan" className="mx-auto max-w-2xl lg:text-center">
-                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Plans</p>
+            <div id="plan" className="mx-auto max-w-2xl lg:text-center h-[80vh]">
+                <p className="mt-16 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Plans</p>
                 <p className="mt-6 text-lg leading-8 text-indigo-600">The key deliverables of the program are.</p>
                 <div className="mx-auto mt-10 grid gap-8 lg:flex lg:max-w-none lg:grid-cols-3">
                     <PlanCard price={'100'} title={'1 Year'} description={''}/>
