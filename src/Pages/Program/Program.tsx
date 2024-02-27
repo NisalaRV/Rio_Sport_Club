@@ -5,7 +5,7 @@ export const Program = () => {
 
         <>
 
-            <div className=" pl-20">
+            <div id="program" className=" pl-20">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Programs</p>
                     <p className="mt-6 text-lg leading-8 text-indigo-600">The key deliverables of the program are.</p>

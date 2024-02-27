@@ -3,7 +3,7 @@ import club from "../../assets/images/club.jpg";
 
 export const Home = () => {
     return (
-        <div className="relative">
+        <div id="home" className="relative">
             <img src={club} className="w-full min-h-80 opacity-90" alt="Rio Club"/>
             <div className="absolute top-0 left-0 w-full flex justify-center items-center h-full">
                 <div className="text-center">
