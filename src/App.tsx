@@ -5,6 +5,7 @@ import {Home} from "./components/Home/Home";
 import {About} from "./components/About/About";
 import {Program} from "./components/Program/Program";
 import Plans from "./components/Plans/Plans";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
        <About/>
         <Program/>
       <Plans/>
+        <Footer/>
 
     </div>
   );
